@@ -1,0 +1,10 @@
+DROP DATABASE Personne;
+CREATE DATABASE Personne;
+USE Personne;
+CREATE TABLE tblPersonne 
+(
+   Nom varchar(30),
+   Prenom varchar(30),
+   Sexe varchar(10),
+   Age int
+);
